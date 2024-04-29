@@ -1,0 +1,109 @@
+html {
+    background-color: white;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.text-container {
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid red;
+
+}
+
+.text-container h1 {
+    font-size: 5rem;
+    margin-left: 2rem;
+    margin-top: 10rem;
+}
+
+.text-container p {
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.about,
+.offer {
+    width: 80%;
+    margin: 4rem 10% 1rem;
+}
+
+.about h1,
+.offer h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.offer-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.offer-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-card img {
+    width: auto;
+    height: 40%;
+}
+
+.offer-card h2 {
+    font-size: 1.5rem;
+}
+
+.offer-card p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.job-placement,
+.support {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 3rem;
+}
+
+.job-placement-img-wrapper,
+.support-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.job-placement-img-wrapper img,
+.support-img-wrapper img {
+    width: 60%;
+    height: auto;
+}
